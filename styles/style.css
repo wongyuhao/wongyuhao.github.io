@@ -1,13 +1,15 @@
 html{
-    font-family: arial;
-    font-size: 15px;
-}
-body{
-    display:flex;
     
-    justify-content: center;
+
+    font-family: "Bebas Neue", Arial, Helvetica, sans-serif;
+    font-size: 20px;
 }
-.bottom-image{
+#flex-container{
+    display:flex;
+    flex-direction: column;
+    align-content: center;
+}
+.centered {
     display: flex;
     margin-top:5vh;
     justify-content: center;
@@ -18,8 +20,32 @@ body{
 img{
     height:40vh;
     width:40vh;
+}
+.bullet-none{
+    list-style-type: none;
+    padding:0;
+    margin:0;
+}
+
+#bullet-linkedin{
+  
+}
+
+#bullet-github{
+
+}
+
+#icon{
    
 }
 
+.links{
+    
+    text-decoration: none;
+    font-size:40px;
+    color:rgba(0,0,0,0.2);
+}
 
-
+.links:hover{
+    color:rgba(0,0,0,0.8);
+}
