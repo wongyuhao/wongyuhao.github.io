@@ -1,0 +1,25 @@
+html{
+    font-family: arial;
+    font-size: 15px;
+}
+body{
+    display:flex;
+    
+    justify-content: center;
+}
+.bottom-image{
+    display: flex;
+    margin-top:5vh;
+    justify-content: center;
+    align-content: center;
+    
+}
+
+img{
+    height:40vh;
+    width:40vh;
+   
+}
+
+
+
