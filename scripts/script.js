@@ -1,10 +1,10 @@
 window.onload=function(){
 
-    <!--
-    if (screen.width <= 699) {
-        document.location = "mobile.html";
-    }
-    -->
+    
+   // if (screen.width <= 699) {
+    //    document.location = "mobile.html";
+    //}
+    
 
     const image = document.querySelector('#main-image');
 
