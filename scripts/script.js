@@ -1,10 +1,7 @@
 window.onload=function(){
+    this.document.location = "awareness.html"
+    
 
-    
-   // if (screen.width <= 699) {
-    //    document.location = "mobile.html";
-    //}
-    
 
     const image = document.querySelector('#main-image');
 
@@ -16,6 +13,9 @@ window.onload=function(){
         image.setAttribute('src',"images/trouble.png");
     })
 
+    image.addEventListener('click',function(){
+        window.location = "awareness.html";
+    })
 
 
 }

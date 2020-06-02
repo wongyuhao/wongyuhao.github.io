@@ -1,11 +1,11 @@
 html{
     
-
     font-family: "Bebas Neue", Arial, Helvetica, sans-serif;
     font-size: 20px;
 }
 #flex-container{
     display:flex;
+    margin:0;
     width:100vw;
     max-width:100vw;
     flex-direction: column;
@@ -29,22 +29,12 @@ img{
     margin:0;
 }
 
-#bullet-linkedin{
-  
-}
 
-#bullet-github{
-
-}
-
-#icon{
-   
-}
 
 .links{
     
     text-decoration: none;
-    font-size:40px;
+    font-size:4vw;
     color:rgba(0,0,0,0.2);
 }
 
@@ -52,15 +42,40 @@ img{
     color:rgba(0,0,0,0.8);
 }
 
-@media only screen and (max-width: 600px) {
+h1{
+    margin-bottom:1vw;
+    font-size:4vw;
+    text-align: center;
+}
+
+#informed{
+    font-size: 2.5vw; 
+    margin-bottom: 0;
+}
+
+#suggest{
+    font-size: 1.7vw;
+    color:rgba(0,0,0,0.6); 
+    margin-top: 10px;
+}
+
+@media only screen and (min-width: 480px) {
     
     #blm-links{
-        width:80vw;
+        width:90vw;
     }
     .links{
-        
-        
-        font-size:10vw;
-        
+        font-size:10vw; 
     }
+    h1{
+        font-size:11vw
+    }
+    #informed{
+        font-size:8vw
+    }
+    #suggest{
+        
+        font-size:4vw
+    }
+
   }
