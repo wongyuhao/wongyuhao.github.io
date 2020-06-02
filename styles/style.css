@@ -55,8 +55,13 @@ h1{
 
 #suggest{
     font-size: 1.7vw;
+    text-decoration: none;
     color:rgba(0,0,0,0.6); 
     margin-top: 10px;
+}
+
+#suggest:hover{
+    color:rgba(0,0,0,0.8);
 }
 
 @media only screen and (max-width: 600px) {
