@@ -65,7 +65,9 @@ h1{
 }
 
 @media only screen and (max-width: 600px) {
-    
+    body{
+        margin-left:0
+    }
     #blm-links{
         width:90vw;
     }
