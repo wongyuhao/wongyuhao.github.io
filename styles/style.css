@@ -63,6 +63,14 @@ h1{
 #suggest:hover{
     color:rgba(0,0,0,0.8);
 }
+#bias{
+    text-decoration: none;
+    font-size:2vw; 
+    color:red;
+}
+#bias:hover{
+    color:maroon
+}
 
 @media only screen and (max-width: 600px) {
     body{
@@ -81,8 +89,10 @@ h1{
         font-size:8vw
     }
     #suggest{
-        
         font-size:4vw
+    }
+    #bias{
+        font-size:5vw
     }
 
   }
