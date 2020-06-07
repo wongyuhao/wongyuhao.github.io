@@ -9,7 +9,7 @@ html{
   width:100vw;
   max-width:100vw;
   flex-direction: column;
-  align-content: center;
+  align-items: center;
 }
 .centered {
   display: flex;
@@ -47,6 +47,10 @@ h1{
   max-height: 20vw;
 }
 
+#return{
+  font-size: 2.3vw;
+}
+
 @media only screen and (max-width: 600px) {
 
   .links{
@@ -54,6 +58,9 @@ h1{
   }
   #main-image{
     max-width:85vw;
+  }
+  #return{
+    font-size: 8vw;
   }
  
 }
