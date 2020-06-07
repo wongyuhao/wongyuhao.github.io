@@ -11,14 +11,14 @@ h1{
     margin-bottom: 0;
 }
 
-#suggest{
+.suggest{
     font-size: 1.7vw;
     text-decoration: none;
     color:rgba(0,0,0,0.6); 
     margin-top: 10px;
 }
 
-#suggest:hover{
+.suggest:hover{
     color:rgba(0,0,0,0.8);
 }
 #bias{
@@ -44,7 +44,7 @@ h1{
     #informed{
         font-size:8vw
     }
-    #suggest{
+    .suggest{
         font-size:4vw
     }
     #bias{
