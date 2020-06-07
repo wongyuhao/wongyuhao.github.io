@@ -55,11 +55,21 @@ h1{
   .links{
       font-size:10vw; 
   }
+  .flex-container{
+    width:100vw;
+  }
+  .bullet-none{
+    width:100vw;
+    align-self:center;
+    justify-self: center;
+    margin-left:10vw;
+  }
   #main-image{
     max-width:85vw;
   }
   #return{
     font-size: 8vw;
   }
+  
  
 }
