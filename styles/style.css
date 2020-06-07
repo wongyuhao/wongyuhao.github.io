@@ -18,6 +18,9 @@ html{
   align-content: center;
   
 }
+h1{
+  text-align: center;
+}
 
 .bullet-none{
   list-style-type: none;
