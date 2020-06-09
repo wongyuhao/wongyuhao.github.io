@@ -1,0 +1,153 @@
+html{
+    background-color: black;
+    color:white;
+    font-family: "Open Sans",sans-serif;
+    font-size:35px;
+    overflow:auto;
+    scrollbar-width: none;
+
+}
+
+#outer-container{
+    align-items: center;
+    display:flex;
+    flex-direction: column;
+    height: 98vh;
+   
+}
+
+#display-area{
+    display: flex;
+    flex-direction: column;
+    height: 24vh;
+    width: 360px;
+    background-color: rgba(255,255,255,0.125);
+    border-radius: 20px;
+  
+   
+}
+#entered-area{
+    
+    
+    height:12vh;
+    line-height: 12vh;
+    width:auto;
+    text-align: right;
+    border-bottom: rgba(255,255,255,0.1) 1px solid;
+    
+    
+      
+}
+
+#result-area{
+
+    height:12vh;
+    line-height: 12vh;
+    width:auto;
+    text-align: right;
+    
+    
+    
+  
+}
+
+.text{
+    margin: 0px;
+    padding-right:15px;
+    padding-left:15px;
+    
+    white-space: nowrap;
+    overflow-y: auto;
+    scrollbar-color: rgba(255,255,255,0.2) transparent;
+    scrollbar-width: thin;
+    
+    color: rgba(255,255,255,0.7);
+}
+
+#result-text{
+    color:white;
+    font-weight: bold;
+}
+
+.btn{
+   
+    border-radius: 100%;
+    height:75px;
+    width: 75px;
+    text-decoration: none;
+    border: none;
+    font-family: "Open Sans",sans-serif;
+    font-size:28px;
+    font-weight: bold;
+    cursor: pointer;  
+    color:white;  
+}
+
+.numBtn, #btnDEC{
+    background-color:	hsl(0, 0%, 20%);
+    
+}
+
+.numBtn:hover, #btnDEC:hover{
+    background-color: 	hsl(0, 0%, 30%);
+}
+
+#btnPl, #btnMn,#btnMl, #btnDv, #btnCALC{
+    background-color: hsl(36, 99%, 52%);
+}
+#btnPl:hover, #btnMn:hover,#btnMl:hover, #btnDv:hover, #btnCALC:hover{
+    background-color: hsl(36, 99%, 62%);
+}
+
+#btnCLR,#btnDEL,#btnPOW{
+   background-color: hsl(0, 0%, 65%);
+   color:black;
+}
+#btnCLR:hover,#btnDEL:hover,#btnPOW:hover{
+    background-color: hsl(0, 0%, 75%);
+ }
+
+
+#button-area{
+    height: 71vh;
+    width: auto;
+    margin-top:2vh;
+    display:grid;
+    grid-template-columns: repeat(4,90px);
+    grid-template-rows: repeat(5,90px);
+    justify-items: center;
+    align-items: center;
+    
+    grid-template-areas: 
+    " clr   del     pow     divd"
+    " seven eight   nine    mult"
+    " four  five    six     minus"
+    " one   two     three   plus"
+    " zro   zro     dec     calc";
+}
+
+
+#btn0 {
+    grid-area:zro;
+    width:165px;
+    border-radius: 50px;
+}
+#btn1{grid-area:one;}
+#btn2{grid-area:two;}
+#btn3{grid-area:three;}
+#btn4{grid-area:four;}
+#btn5{grid-area:five;}
+#btn6{grid-area:six;}
+#btn7{grid-area:seven;}
+#btn8{grid-area:eight;}
+#btn9{grid-area:nine;}
+#btnPl{grid-area:plus;}
+#btnMn{grid-area:minus;}
+#btnMl{grid-area:mult;}
+#btnDv{grid-area:divd;}
+#btnCLR{grid-area:clr;}
+#btnCALC{grid-area:calc;}
+#btnDv{grid-area:divd;}
+#btnDEC{grid-area:dec}
+#btnPOW{grid-area:pow;}
+#btnDEL{grid-area:del;}

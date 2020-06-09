@@ -27,7 +27,12 @@ h1{
   padding:0;
   align-self: flex-start;
 }
-
+.category{
+  font-size:3vw;
+ 
+  margin-top:0;
+  margin-bottom:0;
+}
 .links{
   
   text-decoration: none;
