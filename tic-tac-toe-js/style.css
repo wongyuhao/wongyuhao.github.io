@@ -1,0 +1,108 @@
+html{
+  font-family: monospace;
+  font-size:2vw;
+  background-color: rgb(18, 27, 51);
+  color:white;
+}
+
+
+#flex-container{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  margin:0
+}
+
+#board{
+  display:grid;
+  grid-template-rows: repeat(3,1fr);
+  grid-template-columns: repeat(3,1fr);
+  grid-gap:5px;
+  max-width: 28vw;
+  max-height: 28vw;
+}
+
+
+
+.hidden{
+  display:none  !important;
+}
+
+.overlay{
+  background-color: rgb(18, 27, 51);
+  
+  position:fixed;
+  display:flex;
+  flex-direction: column;
+  width: 100vw;
+  height:100vh;
+  align-items: center;
+  top:0;
+}
+#TTT{
+  color:rgb(255, 0, 155);
+  font-size: 5.5vw; 
+  margin-bottom: 0;
+}
+#end{
+  background-color:rgba(0,0,0,0.9)
+}
+
+#nameForm{
+  
+  text-align:start;
+  font-size: 1.8vw;
+}
+
+input{
+  font-family:monospace;
+  font-weight: bold;
+  padding:15px 15px 15px 20px;
+  width:14vw;
+  margin:10px 0px;
+  border-style:none;
+  border-radius:100px;
+}
+
+#start{
+  padding:15px;
+  width:14vw;
+  background-color:rgb(0, 255, 255);
+  color:black;
+
+}
+
+#start:hover{
+  background-color: rgb(7, 204, 204)
+}
+
+#undo, #reset{
+  margin-top:1vw;
+  background-color:white;
+  color:black;
+  padding:15px 0px;
+}
+
+
+#undo:hover, #reset:hover{
+  background-color:rgb(199, 199, 199);
+  
+}
+
+input[type="button"], button{
+  cursor: pointer;
+}
+
+#reload{
+  background-color: rgb(202, 1, 1);
+  color:white
+}
+
+#reload:hover{
+  background-color: rgb(168, 0, 0);
+}
+
+#winner{
+  margin-top:25vh;
+  
+}
