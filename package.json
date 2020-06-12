@@ -1,0 +1,19 @@
+{
+  "name": "wongyuhao.github.io",
+  "version": "1.0.0",
+  "description": "Yu Hao Wong's Personal Portfolio Site",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wongyuhao/wongyuhao.github.io.git"
+  },
+  "author": "Hao",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wongyuhao/wongyuhao.github.io/issues"
+  },
+  "homepage": "https://github.com/wongyuhao/wongyuhao.github.io#readme"
+}
