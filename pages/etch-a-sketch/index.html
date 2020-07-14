@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Etch-a-Sketch</title>
+        <link href="style.css" type="text/css" rel="stylesheet">
+    </head>
+
+    <body>
+        <h1>Etch-a-Sketch</h1>
+        <div>
+            <p id ="brush-hardness"></p>
+            <p id="grid-size"></p>
+        </div>
+
+        <div id="content">    
+            <div id="container"></div>
+            <div class="controls">
+                <p>Hardness:</p>
+                <input type="range" min="1" max="99" value="50" id="hardness-slider">
+                <input id="reset-button" type="button" value="RESET">
+            </div>
+        </div>   
+        
+
+
+        <script src="script.js"></script>
+    </body>
+</html>
