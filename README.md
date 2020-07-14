@@ -1,4 +1,5 @@
 Yu Hao Wong's Personal Portfolio Site
+v2.0 Rebuild using gastby.js
 
 Currently used frameworks:
 None
